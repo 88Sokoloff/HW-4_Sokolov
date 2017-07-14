@@ -5,12 +5,14 @@
 	<title>SC/FE/Task3</title>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway:400,700|Rokkitt" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
 		<div class="nav_container">
 			<p class="logo"><a href="index.html">logo</a></p>
 			<nav>
+				<a href="#" class="b-menu"><span></span></a>
 				<ul class="nav">
 					<li class="nav--item nav--item-active"><a href="index.html">Start</a></li>
 					<li class="nav--item"><a href="#">About me</a></li>
@@ -104,5 +106,12 @@
 			<p>Imprint</p>
 		</div>
 	</footer>
+
+	<script>
+		$('a.b-menu').click(function(){
+  			$(this).toggleClass('active');
+  			return false;
+		});
+	</script>
 </body>
 </html>
