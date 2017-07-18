@@ -135,18 +135,18 @@ nav > a:hover + .nav {
 	margin: 0 auto;
 }
 .about h1 {
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: bold;
-	margin: 75px auto 30px;
+	margin: 4.6875rem auto 1.875rem;
 	text-align: center;
 	color: #9b59b6;
 	text-transform: uppercase;
 }
 .about p {
-	font-size: 18px;
-	line-height: 29px;
+	font-size: 1.125rem;
+	line-height: 1.8125rem;
 	color: #95a5a6;
-	width: 768px;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -154,17 +154,16 @@ nav > a:hover + .nav {
 .workflow {
 	display: flex;
 	justify-content: space-between;
-	width: 960px;
-	margin: 0 auto 75px;
+	margin: 0 auto 4.6875rem;
 }
 .workflow--item {
-	width: 250px;
+	width: 25%;
 
 }
 .workflow--item img {
 	display: block;
-	width: 64px; height: 64px;
-	margin: 80px auto 0;
+	width: 4rem; height: 4rem;
+	margin: 5rem auto 0;
 }
 .item--img1 {
 	background: url(../img/sprite.png) 0 0;
