@@ -1,5 +1,5 @@
 html {
-	font-size: 8px;
+	font-size: 10px;
 }
 body {
 	margin: 0; padding: 0;
@@ -152,17 +152,15 @@ nav > a:hover + .nav {
 }
 
 .workflow {
-	display: flex;
-	justify-content: space-between;
 	margin: 0 auto 4.6875rem;
 }
 .workflow--item {
-	width: 25%;
-
+	width: 75%;
+	margin: 0 auto;
 }
 .workflow--item img {
 	display: block;
-	width: 4rem; height: 4rem;
+	width: 64px; height: 64px;
 	margin: 5rem auto 0;
 }
 .item--img1 {
@@ -176,29 +174,22 @@ nav > a:hover + .nav {
 }
 
 .workflow--item h3 {
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #9b59b6;
 	text-align: center;
 }
 .workflow--item p {
-	font-size: 15px;
-	width: 250px;
-	text-align: justify;
+	font-size: 0.9375rem;
+	width: 90%;
 }
 
 .portfolio {
-	width: 960px;
-	margin: 75px auto;
-}
-
-.img_pair {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 55px;
+	margin: 4.6875rem auto;
 }
 .img--item {
 	position: relative;
-	width: 400px; height: 300px;
+	width: 90%;
+	margin: 0 auto 3.4375rem;
 	overflow: hidden;
 	opacity: .5;
 	transition: .3s ease-in-out;
@@ -207,92 +198,93 @@ nav > a:hover + .nav {
 	opacity: 1;
 }
 .img--item1 {
-	background: url(../img/photo1.jpg);
+	background: url(../img/photo1.jpg) 50% 50%;
 }
 .img--item2 {
-	background: url(../img/photo2.jpg);
+	background: url(../img/photo2.jpg) 50% 50%;
 }
 .img--item3 {
-	background: url(../img/photo3.jpg);
+	background: url(../img/photo3.jpg) 50% 50%;
 }
 .img--item4 {
-	background: url(../img/photo4.jpg);
+	background: url(../img/photo4.jpg) 50% 50%;
 }
 
 .search {
 	position: relative;
-	top: -80px; right: -330px;
-	width: 52px; height: 52px;
-	background: #9b59b6 url(../img/sprite.png) 12px -66px no-repeat;
-	border: 6px solid rgba(155, 89, 182, .5);
+	top: -55px; right: -225px;
+	width: 42px; height: 42px;
+	background: #9b59b6 url(../img/sprite.png) 10px -68px no-repeat;
+	border: 3px solid rgba(155, 89, 182, .5);
 	background-clip: padding-box;
 	transition: top .3s ease-out;
 }
 .search:hover {
-	border: 6px solid rgba(155, 89, 182, .8);
+	border: 3px solid rgba(155, 89, 182, .8);
 	cursor: pointer;
 }
 .img--item:hover .search {
-	top: 20px; right: -330px;
+	top: 5px; right: -225px;
 }
 
 .img_description {
 	position: relative;
-	bottom: -300px;
-	width: 400px; height: 96px;
+	bottom: -105px;
+	height: 6rem;
 	background-color: #9b59b6;
-	border-top: 6px solid rgba(155, 89, 182, .5);
+	border-top: 3px solid rgba(155, 89, 182, .5);
 	background-clip: padding-box;
 	transition: bottom .3s ease-out;
 }
 .img--item:hover .img_description {
-	bottom: -146px;
+	bottom: -15px;
 }
 
 .img_description h3 {
-	font: normal 30px 'Rokkitt', serif;
+	font: normal 1.875rem 'Rokkitt', serif;
 	color: #fff;
-	margin: 25px 0 0 20px;
+	margin: 1.5625rem 0 0 1.25rem;
 }
 .img_description p {
-	font: 15px 'Raleway', sans-serif;
+	display: none;
+	font: 0.9375rem 'Raleway', sans-serif;
 	color: #6b3f7d;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 1.25rem;
 }
 
 .more {
 	display: block;
-	width: 232px; height: 67px;
-	margin: 75px auto 0;
-	padding-left: 20px;
-	background: #9b59b6 url(../img/sprite.png) 170px -105px no-repeat;
+	width: 12.875rem; height: 4.1875rem;
+	margin: 4.6875rem auto 0;
+	padding-left: 1.25rem;
+	background: #9b59b6 url(../img/sprite.png) 101px -74px no-repeat;
+	background-size: 180%;
 	background-clip: padding-box;
-	border: 6px solid transparent;
-	font: normal 24px 'Rokkitt', serif;
+	border: 3px solid transparent;
+	font: normal 1.5rem 'Rokkitt', serif;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: left;
 	cursor: pointer;
 }
 .more:hover {
-	border: 6px solid rgba(155, 89, 182, .5);
+	border: 3px solid rgba(155, 89, 182, .5);
 }
 
-.contact {
-	width: 768px;
-	margin: 0 auto;
-}
 .contact h1 {
-	margin: 75px 0;
-	font: normal 60px 'Rokkitt', serif;
+	margin: 4.6875rem 0;
+	font: normal 3.75rem 'Rokkitt', serif;
 	color: #9b59b6;
 	text-align: center;
 }
 
 input, textarea {
-	width: 309px; height: 13px;
-	padding: 30px;
-	font: normal 30px 'Rokkitt', serif;
+	display: block;
+	width: 90%; height: .8125rem;
+	margin: 1.875rem auto 0;
+	padding: 1.875rem;
+	box-sizing: border-box;
+	font: normal 1.875rem 'Rokkitt', serif;
 	color: #cecece;
 	background-color: #e4e8e8;
 	border: none;
@@ -302,14 +294,10 @@ input::placeholder, textarea::placeholder {
 	color: #cecece;
 }
 input:focus, textarea:focus {
-	box-shadow: 5px 5px 5px #9b59b6, -5px -5px 5px #9b59b6;;
-}
-input[type="text"] {
-	float: left;
-	margin: 0 30px 30px 0;
+	box-shadow: 2px 2px 2px #9b59b6, -2px -2px 2px #9b59b6;
 }
 textarea {
-	width: 708px; height: 250px;
+	height: 15.625rem;
 	resize: none;
 }
 
